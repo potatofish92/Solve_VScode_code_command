@@ -1,0 +1,15 @@
+this is the solution on windows 11
+
+1. check your PATH in enviroment variables, 
+    
+    if yes, go find the corresponding folder according to the PATH and see 2.
+    
+    if no, add the path of VScode folder in your PATH in enviroment variables(normally installed in C:)
+
+2. check if there exists "code.cmd" in the folder.(code.cmd is a command file, will execute right after you click on)
+
+    if yes, click on to reactivate it and you should be able to use 'code .'
+
+    if no, open VScode and click ctrl + shift + p, then type in this  “Shell Command: Install ‘code’ command in PATH.”
+
+3. after above steps, the 'code .' command in your terminal should work out successfully
